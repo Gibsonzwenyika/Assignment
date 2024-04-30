@@ -1,3 +1,4 @@
+package  finalProject;
 import java.util.TreeMap;
 
 public class GpaCalculator{
@@ -20,8 +21,6 @@ public class GpaCalculator{
 
  }
 }
-
-
 
 
 //this class is for the student object
@@ -98,7 +97,7 @@ public class GpaCalculator{
       return gradeValue * courseCredit ;
    }
     
-    // methode for determining the grade value for each course
+    // method for determining the grade value for each course
     public double getGradeValue(String grade){
       if(grade.equals("A+"))
          return 5.00;
@@ -135,5 +134,3 @@ public class GpaCalculator{
       return totalCredits;
    }
  }
- 
- 
